@@ -17,5 +17,3 @@ minimumReleaseAgeExclude:
   - oxlint
   - oxfmt
   - oxlint-tsgolint
-  - vitest
-  - '@vitest/*'
