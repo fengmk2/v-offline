@@ -5,8 +5,8 @@ allowBuilds:
   '@parcel/watcher': true
   esbuild: true
 catalog:
-  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-commit.d31f7b6818544e8261b9ccce2374a5e32a8b666f
-  vite-plus: 0.0.0-commit.d31f7b6818544e8261b9ccce2374a5e32a8b666f
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-commit.1081f16319db3823ff566dbfebaa38d662184478
+  vite-plus: 0.0.0-commit.1081f16319db3823ff566dbfebaa38d662184478
 minimumReleaseAgeExclude:
   - '@voidzero-dev/vite-plus-core@0.0.0-commit.d31f7b6818544e8261b9ccce2374a5e32a8b666f'
   - '@voidzero-dev/vite-plus-darwin-arm64@0.0.0-commit.d31f7b6818544e8261b9ccce2374a5e32a8b666f'
@@ -18,6 +18,23 @@ minimumReleaseAgeExclude:
   - '@voidzero-dev/vite-plus-win32-arm64-msvc@0.0.0-commit.d31f7b6818544e8261b9ccce2374a5e32a8b666f'
   - '@voidzero-dev/vite-plus-win32-x64-msvc@0.0.0-commit.d31f7b6818544e8261b9ccce2374a5e32a8b666f'
   - vite-plus@0.0.0-commit.d31f7b6818544e8261b9ccce2374a5e32a8b666f
+  - '@oxlint-tsgolint/darwin-arm64@0.24.0'
+  - '@oxlint-tsgolint/darwin-x64@0.24.0'
+  - '@oxlint-tsgolint/linux-arm64@0.24.0'
+  - '@oxlint-tsgolint/linux-x64@0.24.0'
+  - '@oxlint-tsgolint/win32-arm64@0.24.0'
+  - '@oxlint-tsgolint/win32-x64@0.24.0'
+  - '@voidzero-dev/vite-plus-core@0.0.0-commit.1081f16319db3823ff566dbfebaa38d662184478'
+  - '@voidzero-dev/vite-plus-darwin-arm64@0.0.0-commit.1081f16319db3823ff566dbfebaa38d662184478'
+  - '@voidzero-dev/vite-plus-darwin-x64@0.0.0-commit.1081f16319db3823ff566dbfebaa38d662184478'
+  - '@voidzero-dev/vite-plus-linux-arm64-gnu@0.0.0-commit.1081f16319db3823ff566dbfebaa38d662184478'
+  - '@voidzero-dev/vite-plus-linux-arm64-musl@0.0.0-commit.1081f16319db3823ff566dbfebaa38d662184478'
+  - '@voidzero-dev/vite-plus-linux-x64-gnu@0.0.0-commit.1081f16319db3823ff566dbfebaa38d662184478'
+  - '@voidzero-dev/vite-plus-linux-x64-musl@0.0.0-commit.1081f16319db3823ff566dbfebaa38d662184478'
+  - '@voidzero-dev/vite-plus-win32-arm64-msvc@0.0.0-commit.1081f16319db3823ff566dbfebaa38d662184478'
+  - '@voidzero-dev/vite-plus-win32-x64-msvc@0.0.0-commit.1081f16319db3823ff566dbfebaa38d662184478'
+  - oxlint-tsgolint@0.24.0
+  - vite-plus@0.0.0-commit.1081f16319db3823ff566dbfebaa38d662184478
 overrides:
   vite: 'catalog:'
 peerDependencyRules:
