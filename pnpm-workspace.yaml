@@ -1,6 +1,41 @@
+minimumReleaseAge: 60
+minimumReleaseAgeExclude:
+  - vite-plus
+  - '@voidzero-dev/*'
+  - '@oxc-project/*'
+  - '@oxlint/*'
+  - '@oxfmt/*'
+  - '@oxlint-tsgolint/*'
+  - '@rolldown/*'
+  - '@tsdown/*'
+  - oxlint
+  - oxfmt
+  - oxlint-tsgolint
+  - tsdown
+  - rolldown
+  - '@voidzero-dev/vite-plus-core@0.0.0-commit.1d7ba811f0e456640b0e761e8e8acf77d1ad3251'
+  - '@voidzero-dev/vite-plus-darwin-arm64@0.0.0-commit.1d7ba811f0e456640b0e761e8e8acf77d1ad3251'
+  - '@voidzero-dev/vite-plus-darwin-x64@0.0.0-commit.1d7ba811f0e456640b0e761e8e8acf77d1ad3251'
+  - '@voidzero-dev/vite-plus-linux-arm64-gnu@0.0.0-commit.1d7ba811f0e456640b0e761e8e8acf77d1ad3251'
+  - '@voidzero-dev/vite-plus-linux-arm64-musl@0.0.0-commit.1d7ba811f0e456640b0e761e8e8acf77d1ad3251'
+  - '@voidzero-dev/vite-plus-linux-x64-gnu@0.0.0-commit.1d7ba811f0e456640b0e761e8e8acf77d1ad3251'
+  - '@voidzero-dev/vite-plus-linux-x64-musl@0.0.0-commit.1d7ba811f0e456640b0e761e8e8acf77d1ad3251'
+  - '@voidzero-dev/vite-plus-win32-arm64-msvc@0.0.0-commit.1d7ba811f0e456640b0e761e8e8acf77d1ad3251'
+  - '@voidzero-dev/vite-plus-win32-x64-msvc@0.0.0-commit.1d7ba811f0e456640b0e761e8e8acf77d1ad3251'
+  - 'vite-plus@0.0.0-commit.1d7ba811f0e456640b0e761e8e8acf77d1ad3251'
 packages:
   - 'example'
 
 allowBuilds:
   '@parcel/watcher': true
   esbuild: true
+catalog:
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-commit.1d7ba811f0e456640b0e761e8e8acf77d1ad3251
+  vite-plus: 0.0.0-commit.1d7ba811f0e456640b0e761e8e8acf77d1ad3251
+overrides:
+  vite: 'catalog:'
+peerDependencyRules:
+  allowAny:
+    - vite
+  allowedVersions:
+    vite: '*'
