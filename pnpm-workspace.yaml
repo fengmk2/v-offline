@@ -3,4 +3,17 @@ packages:
 
 allowBuilds:
   '@parcel/watcher': true
+  edgedriver: false
   esbuild: true
+  geckodriver: false
+
+blockExoticSubdeps: false
+minimumReleaseAge: 60
+minimumReleaseAgeExclude:
+  - vite-plus
+  - '@voidzero-dev/*'
+  - '@oxc-project/*'
+  - '@oxlint/*'
+  - oxlint
+  - oxfmt
+  - oxlint-tsgolint
