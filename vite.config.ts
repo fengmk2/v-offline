@@ -2,6 +2,9 @@ import Vue from 'unplugin-vue/rolldown';
 import { defineConfig } from 'vite-plus';
 
 export default defineConfig({
+  test: {
+    passWithNoTests: true,
+  },
   lint: {
     plugins: ['typescript', 'vue', 'import'],
     ignorePatterns: [
@@ -11,6 +14,7 @@ export default defineConfig({
       'node_modules',
       '.wrangler',
       'coverage',
+      '.agents/skills',
       '*.min.js',
       '*.min.css',
     ],
@@ -43,6 +47,7 @@ export default defineConfig({
       'node_modules',
       '.wrangler',
       'coverage',
+      '.agents/skills',
       '*.min.js',
       '*.min.css',
       'pnpm-lock.yaml',
